@@ -1,6 +1,12 @@
-iset encoding=utf-8
+set encoding=utf-8
 set nocompatible
 filetype off
+
+set number
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
@@ -19,9 +25,3 @@ let g:airline_theme='hybridline'
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#buffer_nr_show=1
-
-set number
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab
